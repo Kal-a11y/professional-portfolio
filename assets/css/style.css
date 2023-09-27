@@ -35,6 +35,13 @@ h1{
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
 }
+/* All cards */
+main .card{
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
 
 /* About me card */
 
