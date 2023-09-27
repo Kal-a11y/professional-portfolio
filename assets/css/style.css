@@ -45,6 +45,12 @@ main .card{
 
 /* About me card */
 
+#profile {
+    border-radius: 50%;
+    border: 5px dotted black;
+    width: 125px;
+}
+
 /* Work card */
 
 /* Contact card */
