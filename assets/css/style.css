@@ -1,8 +1,9 @@
-/* Nav bar */
-nav {
+/* Body */
+body{
     text-align: center;
 }
 
+/* Nav bar */
 nav ul {
     height: 100px;
     padding-left: 0px;
@@ -39,7 +40,6 @@ h1 {
 }
 /* All cards */
 main .card{
-    text-align: center;
     border: 1px solid black;
     padding-top: 10px;
     margin-bottom: 10px;
