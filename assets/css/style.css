@@ -1,4 +1,4 @@
-
+/* Nav bar */
 nav{
     text-align: center;
 }
@@ -16,6 +16,16 @@ nav li{
     padding: 5px;
 }
 
+
+/* Header */
 header{
     background: url(../images/bg-img.jpg);
 }
+
+/* About me card */
+
+/* Work card */
+
+/* Contact card */
+
+/* Footer */
