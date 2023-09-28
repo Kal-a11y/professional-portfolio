@@ -101,6 +101,13 @@ main .card {
     width:290px;
     height: 170px;
 }
+#sect-work a{
+    color:black;
+}
+.work-card:hover ,#work-main:hover{
+    border: 1px solid darkblue;
+    box-shadow: 1px 1px 5px darkblue, -1px -1px 5px darkblue;
+}
 /* Contact card */
 #sect-contact img {
     width: 100px;
