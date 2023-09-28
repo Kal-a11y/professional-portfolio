@@ -1,5 +1,5 @@
 /* Body */
-body{
+body {
     text-align: center;
 }
 
@@ -38,8 +38,9 @@ h1 {
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: black;
 }
+
 /* All cards */
-main .card{
+main .card {
     border: 1px solid black;
     padding-top: 10px;
     margin-bottom: 10px;
@@ -54,44 +55,50 @@ main .card{
 }
 
 /* Work card */
-.work-space img{
-    width:100px;
+.work-space img {
+    width: 100px;
     height: 50px;
 }
 
 /* Contact card */
-#sect-contact img{
-    width:100px;
+#sect-contact img {
+    width: 100px;
 }
-#sect-contact form{
+
+#sect-contact form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
-}
-.row{
-    display: flex;
-    justify-content: center;
-    width:100%;
-}
-#sect-contact form input,textarea{
-    border:1px solid black;
-    margin:5px 5px;
-    
-}
-#sect-contact form input{
-    border:1px solid black;
-    margin-left:16px;
-    width:150px;
-    
+
 }
 
-#sect-contact form textarea{
-    width:145px;
+.row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#sect-contact form input,
+textarea {
+    border: 1px solid black;
+    margin: 5px 5px;
+
+}
+
+#sect-contact form input {
+    border: 1px solid black;
+    margin-left: 16px;
+    width: 150px;
+
+}
+
+#sect-contact form textarea {
+    width: 145px;
     height: 80px;
 }
-#sect-contact form input[type="submit"]{
-    width:145px;
+
+#sect-contact form input[type="submit"] {
+    width: 145px;
 }
 
 
