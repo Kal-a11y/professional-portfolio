@@ -8,6 +8,7 @@
     
         --border-basic: 1px solid black;
         --border-test: 1px solid red;
+        --profile-img-size: 70%;
     }
 
     body {
@@ -74,11 +75,22 @@
     }
 
     /* About me card */
-
+    #sect-about{
+        height: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
     #profile {
         border-radius: 50%;
         border: 5px dotted black;
-        width: 125px;
+        width: 100px;
+        height: 140px;
+        float: left;
+        flex-grow: 1;
+        margin-left: 50px;
+    }
+    #text{
+        flex-grow: 5;
     }
 
     /* Work card */
