@@ -55,6 +55,10 @@
         width: 50px;
         padding: 2px 0px;
     }
+    nav li:hover{
+        width:50px;
+        box-shadow:.5px 0px 2px lightskyblue, -.5px -.5px 2px lightskyblue;
+    }
 
 
     /* Header */
