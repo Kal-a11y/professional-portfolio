@@ -174,25 +174,26 @@
     textarea {
         border: 1px solid black;
         margin: 5px 5px;
-        font-size:7px;
+        font-size: 1em;
 
     }
 
     #sect-contact form input {
         border: 1px solid black;
         margin-left: 16px;
-        width: 150px;
-        height: 10px;
+        width: 200px;
+        height: 20px;
 
     }
 
     #sect-contact form textarea {
-        width: 145px;
-        height: 50px;
+        width: 200px;
+        height: 100px;
     }
 
     #sect-contact form input[type="submit"] {
         width: 145px;
+        height: 20px;
     }
 
 
