@@ -13,6 +13,7 @@
     body {
         text-align: center;
         background-color: var(--color-sub);
+        font-size: .5em;
     }
 
     /* Nav bar */
