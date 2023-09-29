@@ -31,8 +31,8 @@
         height: 20px;
         width: 100%;
         margin: 5px 0px;
-        position: static;
         position: sticky;
+        top: 0px;
         z-index: 1;
         border: var(--border-basic);
         font-size: 1.5em;
@@ -47,6 +47,7 @@
         justify-content: flex-end;
         list-style: none;
         margin: 0px;
+        width: 100%;
     }
 
     nav li {
