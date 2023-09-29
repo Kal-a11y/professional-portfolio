@@ -18,13 +18,14 @@
 
     /* Nav bar */
     nav {
-        background-color: var(--color-sub);
-        height: 90px;
+        background-color: var(--color-main);
+        height: 20px;
         width: 100%;
         margin: 5px 0px;
         position: static;
         top: 0px;
         z-index: 1;
+        border: var(--border-basic);
 
     }
 
@@ -32,16 +33,17 @@
         height: 100%;
         padding-left: 0px;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
         list-style: none;
         margin: 0px;
     }
 
     nav li {
-        border: 1px solid black;
-        width: 100%;
-        padding: 5px 0px;
+        border: none;
+        width: 50px;
+        padding: 2px 0px;
     }
 
 
