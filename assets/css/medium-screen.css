@@ -3,8 +3,8 @@
 
     /* Body */
     :root {
-        --color-main: darkblue;
-        --color-sub: darkblue;
+        --color-main: orange;
+        --color-sub: lightblue;
     
         --border-basic: 1px solid black;
         --border-test: 1px solid red;
