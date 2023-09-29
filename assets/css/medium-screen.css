@@ -16,6 +16,9 @@
         background-color: var(--color-sub);
         font-size: .5em;
     }
+    h2{
+        font-size: 1.5em;
+    }
 
     /* Nav bar */
     nav {
@@ -156,16 +159,19 @@
 
     }
 
+
     .row {
         display: flex;
         justify-content: center;
         width: 100%;
     }
 
+
     #sect-contact form input,
     textarea {
         border: 1px solid black;
         margin: 5px 5px;
+        font-size:7px;
 
     }
 
@@ -173,12 +179,13 @@
         border: 1px solid black;
         margin-left: 16px;
         width: 150px;
+        height: 10px;
 
     }
 
     #sect-contact form textarea {
         width: 145px;
-        height: 80px;
+        height: 50px;
     }
 
     #sect-contact form input[type="submit"] {
