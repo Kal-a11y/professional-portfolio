@@ -50,20 +50,19 @@
     /* Header */
     header {
         position: relative;
-        background: url(../images/bg-img.jpg);
+        background: url(../images/bg-img-2.jpg);
         /* border: 1px solid red; */
-        height: 200px;
+        height: 100px;
         background-size: cover;
         width: 100%;
     }
 
     h1 {
         color: white;
-        position: absolute;
-        left: 11.2px;
-        top: 60px;
-        -webkit-text-stroke: 1px;
-        -webkit-text-stroke-color: black;
+        position: static;
+        line-height: 100px;
+        font-size: 3em;
+        margin-top: 0px;
     }
 
     /* All cards */
