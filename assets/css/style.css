@@ -77,11 +77,16 @@ main .card {
 }
 
 /* About me card */
-
+#sect-about{
+    padding: 5px;
+}
 #profile {
     border-radius: 50%;
     border: 5px dotted black;
     width: 125px;
+}
+#sect-about p{
+    margin: 0px 20px;
 }
 
 /* Work card */
