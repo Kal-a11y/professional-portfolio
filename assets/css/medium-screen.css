@@ -22,14 +22,14 @@
     /* Nav bar */
     nav {
         background-color: var(--color-main);
-        height: 20px;
+        height: 30px;
         width: 100%;
         margin: 5px 0px;
         position: sticky;
         top: 0px;
         z-index: 1;
         border: var(--border-basic);
-
+        font-size:1.2em;
     }
 
     nav ul {
@@ -45,11 +45,11 @@
 
     nav li {
         border: none;
-        width: 50px;
+        width: 100px;
         padding: 2px 0px;
     }
     nav li:hover{
-        width:50px;
+        width:100px;
         box-shadow:.5px 0px 2px lightskyblue, -.5px -.5px 2px lightskyblue;
     }
 
