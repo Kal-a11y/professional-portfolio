@@ -71,7 +71,7 @@
     h1 {
         color: white;
         position: static;
-        line-height: 150px;
+        line-height: 10px;
         font-size: 3em;
         margin-top: 0px;
     }
@@ -86,7 +86,7 @@
 
     /* About me card */
     #sect-about{
-        height: var(--row-1-height);
+        height: initial;
         display: flex;
         justify-content: space-around;
         grid-column-start: 1;
@@ -172,7 +172,7 @@
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
-        height: var(--row-1-height);
+        height: initial;
         width: var(--row-1-width);
     }
     #sect-contact img {

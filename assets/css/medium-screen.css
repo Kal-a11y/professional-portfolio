@@ -82,7 +82,7 @@
 
     /* About me card */
     #sect-about{
-        height: 150px;
+        height: initial;
         display: flex;
         justify-content: space-around;
     }
