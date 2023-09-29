@@ -35,7 +35,7 @@
         top: 0px;
         z-index: 1;
         border: var(--border-basic);
-
+        font-size: 1.5em;
     }
 
     nav ul {
@@ -219,4 +219,7 @@
 
 
     /* Footer */
+    footer{
+        font-size: 1.5em;
+    }
 }
