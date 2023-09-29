@@ -17,11 +17,8 @@
     body {
         text-align: center;
         background-color: var(--color-sub);
-        font-size: .5em;
     }
-    h2{
-        font-size: 1.5em;
-    }
+
     main{
         display: grid;
     }
@@ -74,8 +71,8 @@
     h1 {
         color: white;
         position: static;
-        line-height: 100px;
-        font-size: 6em;
+        line-height: 150px;
+        font-size: 3em;
         margin-top: 0px;
     }
 
