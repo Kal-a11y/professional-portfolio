@@ -138,6 +138,11 @@
         border: 1px solid darkblue;
         box-shadow: 1px 1px 5px darkblue, -1px -1px 5px darkblue;
     }
+    #work-sub{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
 
     /* Contact card */
     #sect-contact img {
