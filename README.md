@@ -4,7 +4,7 @@ This repo showcases my skillset using my updated set of deployed works, as well 
 
 ## How to view
 
-The webpage can be viewed at [here]() or the link in the 'About' section of [this repository](https://github.com/Kal-a11y/professional-portfolio).
+The webpage can be viewed at [here](kal-a11y.github.io/professional-portfolio/) or the link in the 'About' section of [this repository](https://github.com/Kal-a11y/professional-portfolio).
 
 ## The Code
 
