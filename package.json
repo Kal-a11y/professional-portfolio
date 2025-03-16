@@ -1,0 +1,12 @@
+{
+  "name": "professional-portfolio",
+  "version": "1.0.0",
+  "description": "This repo showcases my skillset using my updated set of deployed works, as well of my usage of css grid and flexbox in the index.html part of the webpage. This page also applies accessibility components for WCAC and responsive page design for mobile, medium, and large screen types.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
