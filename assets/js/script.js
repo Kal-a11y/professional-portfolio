@@ -2,7 +2,7 @@ const featWorkContainer = document.getElementsByClassName('feat-work-container')
 
 //Need project to have image, github link, and live link
 //TODO Lon term: When hovering over thei project image
-const displayProjects = (container, projects) => {
+const displayProjects = (container, projects, length) => {
     const createProjectCard = (project) => {
         const projectDiv = document.createElement("div");
         projectDiv.classList.add("project-image", "mb-5", "bg-cover", "bg-center", "h-[200px]", "rounded-lg", "w-9/10", "m-auto", "group", "shadow-lg");
@@ -49,7 +49,7 @@ const displayProjects = (container, projects) => {
 ;
     }
 
-    for (let i = 0; i < 6; i++){
+    for (let i = 0; i < length; i++){
         const card = createProjectCard(projects[i]);
         console.log({card})
         
@@ -60,114 +60,124 @@ const displayProjects = (container, projects) => {
                 
 };
 
-const featWork = [
+const projectList = [
     {
         title: 'beat-box-office',
-        imageURL: './assets/images/work-beat-box-office.PNG',
+        imageURL: '../.../../assets/images/work-beat-box-office.PNG',
         githubURL: 'https://github.com/Kal-a11y/beat-box-office/tree/main',
         liveURL: 'https://kal-a11y.github.io/beat-box-office/'
 
     },
     {
         title: 'landing-page',
-        imageURL: './assets/images/work-mini-project-1.png',
+        imageURL: '../.../../assets/images/work-mini-project-1.png',
         githubURL: 'https://github.com/Kal-a11y/landing-page',
         liveURL: 'https://kal-a11y.github.io/landing-page/'
 
     },
     {
         title: 'horiseon-implement-accessibility',
-        imageURL: './assets/images/work-challenge-1-project.png',
+        imageURL: '../.../../assets/images/work-challenge-1-project.png',
         githubURL: '',
         liveURL: 'https://kal-a11y.github.io/horiseon-implement-accessibility/'
 
     },
     {
         title: 'prework-study-guide',
-        imageURL: './assets/images/work-prework-project.png',
+        imageURL: '../.../../assets/images/work-prework-project.png',
         githubURL: '',
         liveURL: 'https://kal-a11y.github.io/prework-study-guide/'
 
     },
     {
         title: 'note-taker',
-        imageURL: './assets/images/work-note-taker.PNG',
+        imageURL: '../.../../assets/images/work-note-taker.PNG',
         githubURL: 'https://github.com/Kal-a11y/note-taker',
         liveURL: 'https://note-taking-4x8e.onrender.com/'
 
     },
     {
         title: 'career-pal',
-        imageURL: './assets/images/work-career-pal.PNG',
+        imageURL: '../.../../assets/images/work-career-pal.PNG',
         githubURL: 'https://career-pal-project-2-5fb6730b0a09.herokuapp.com/',
         liveURL: 'https://kal-a11y.github.io/prework-study-guide/'
 
     },
     {
         title: 'hotel-utility-app',
-        imageURL: './assets/images/work-hotel-utility-app.PNG',
+        imageURL: '../.../../assets/images/work-hotel-utility-app.PNG',
         githubURL: 'https://github.com/Kal-a11y/hotel-utility-app',
         liveURL: 'https://hotel-utility-app.onrender.com/'
 
     },
     {
         title: 'academa',
-        imageURL: './assets/images/work-academa.PNG',
+        imageURL: '../.../../assets/images/work-academa.PNG',
         githubURL: 'https://github.com/song-richard/academa',
         liveURL: 'https://academa-zkud.onrender.com/'
 
     },
     {
         title: 'book-search-engine-refactoring',
-        imageURL: './assets/images/work-book-search-engine-refactoring.PNG',
+        imageURL: '../.../../assets/images/work-book-search-engine-refactoring.PNG',
         githubURL: 'https://github.com/Kal-a11y/book-search-engine-refactoring',
         liveURL: 'https://book-search-engine-dhud.onrender.com/'
 
     },
     {
         title: 'text-editor',
-        imageURL: './assets/images/work-text-editor.PNG',
+        imageURL: '../.../../assets/images/work-text-editor.PNG',
         githubURL: 'https://github.com/Kal-a11y/text-editor',
         liveURL: 'https://jate-45o7.onrender.com/'
 
     },
     {
         title: 'e-commerce-backend',
-        imageURL: './assets/images/work-e-commerce-backend.PNG',
-        githubURL: 'https://github.com/Kal-a11y/e-commerce-back-end',        liveURL: ''
+        imageURL: '../.../../assets/images/work-e-commerce-backend.PNG',
+        githubURL: 'https://github.com/Kal-a11y/e-commerce-back-end',        
+        liveURL: ''
     },
     {
         title: 'generate-readme-file',
-        imageURL: './assets/images/work-generate-readme-file.PNG',
-        githubURL: 'https://github.com/Kal-a11y/generate-readme-file',        liveURL: ''
+        imageURL: '../.../../assets/images/work-generate-readme-file.PNG',
+        githubURL: 'https://github.com/Kal-a11y/generate-readme-file',        
+        liveURL: ''
     },
     {
         title: 'simple-svg-logo-maker',
-        imageURL: './assets/images/work-simple-svg-logo-maker.PNG',
+        imageURL: '../.../../assets/images/work-simple-svg-logo-maker.PNG',
         githubURL: 'https://github.com/Kal-a11y/simple-svg-logo-maker/blob/main/assets/images/LogoGeneratorDemo.gif',        liveURL: ''
     },
     {
         title: 'weather-dashboard',
-        imageURL: './assets/images/work-weather-dashboard.PNG',
-        githubURL: 'https://github.com/Kal-a11y/weather-dashboard',        liveURL: 'https://kal-a11y.github.io/weather-dashboard/'
+        imageURL: '../.../../assets/images/work-weather-dashboard.PNG',
+        githubURL: 'https://github.com/Kal-a11y/weather-dashboard',        
+        liveURL: 'https://kal-a11y.github.io/weather-dashboard/'
     },
     {
         title: 'work-day-scheduler',
-        imageURL: './assets/images/work-work-day-scheduler.PNG',
-        githubURL: 'https://github.com/Kal-a11y/Work-day-scheduler',        liveURL: 'https://kal-a11y.github.io/Work-day-scheduler/'
+        imageURL: '../.../../assets/images/work-work-day-scheduler.PNG',
+        githubURL: 'https://github.com/Kal-a11y/Work-day-scheduler',        
+        liveURL: 'https://kal-a11y.github.io/Work-day-scheduler/'
     },
     {
         title: 'coding-practice-quiz',
-        imageURL: './assets/images/work-coding-practice-quiz.PNG',
-        githubURL: 'https://github.com/Kal-a11y/coding-practice-quiz',        liveURL: 'https://kal-a11y.github.io/coding-practice-quiz/'
+        imageURL: '../.../../assets/images/work-coding-practice-quiz.PNG',
+        githubURL: 'https://github.com/Kal-a11y/coding-practice-quiz',        
+        liveURL: 'https://kal-a11y.github.io/coding-practice-quiz/'
     },
     {
         title: 'generate-password',
-        imageURL: './assets/images/work-generate-password.PNG',
-        githubURL: 'https://github.com/Kal-a11y/generate-password',        liveURL: 'https://kal-a11y.github.io/generate-password/'
+        imageURL: '../.../../assets/images/work-generate-password.PNG',
+        githubURL: 'https://github.com/Kal-a11y/generate-password',        
+        liveURL: 'https://kal-a11y.github.io/generate-password/'
     },
 
 ];
-
-//run only on home page
-displayProjects(featWorkContainer, featWork);
+console.log(projectList[0]);
+if (window.location.pathname === '/pages/index.html') {
+    displayProjects(featWorkContainer, projectList, 6);
+} else if (window.location.pathname === '/pages/projectPage.html') {
+    displayProjects(document.getElementsByClassName('project-container'), projectList, projectList.length);
+}
+displayProjects(featWorkContainer, projectList, 6);
